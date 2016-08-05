@@ -37,7 +37,7 @@ gulp.task('connect',function(){
 gulp.task('jade',function(){
   gulp.src('jade/*.jade')
     .pipe(jade({
-      pretty: false
+      pretty: true
       }))
     .pipe(gulp.dest('dist'))
     .pipe(connect.reload())
