@@ -45,6 +45,7 @@ $(document).ready(function() {
   // Navgoco acordion
   var acordion = $('.accord')
   acordion.navgoco({accordion: true});
+  $('.s-acord').navgoco({accordion: true});
 
   // Bx slider
   var slider = $('.bx-slider-1').bxSlider({
